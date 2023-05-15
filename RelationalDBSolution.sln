@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLServerUI", "SQLServerUI\SQLServerUI.csproj", "{42F6074B-014E-4F55-8B43-829B71E1FD24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLServerUI", "SQLServerUI\SQLServerUI.csproj", "{42F6074B-014E-4F55-8B43-829B71E1FD24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLibrary", "DataAccessLibrary\DataAccessLibrary.csproj", "{0E94EB3B-CF8E-4487-86CD-6E7CA6B5E132}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLibrary", "DataAccessLibrary\DataAccessLibrary.csproj", "{0E94EB3B-CF8E-4487-86CD-6E7CA6B5E132}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SQLContactsDB", "SQLContactsDB\SQLContactsDB.sqlproj", "{457E695E-2011-434C-ADC8-742C4BF23627}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLiteUI", "SQLiteUI\SQLiteUI.csproj", "{21C8BA23-030F-4442-B122-B5A5CA076A4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySQLUI", "MySQLUI\MySQLUI.csproj", "{A0033516-751E-42BC-B969-B09D8114C6B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +33,14 @@ Global
 		{457E695E-2011-434C-ADC8-742C4BF23627}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{457E695E-2011-434C-ADC8-742C4BF23627}.Release|Any CPU.Build.0 = Release|Any CPU
 		{457E695E-2011-434C-ADC8-742C4BF23627}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{21C8BA23-030F-4442-B122-B5A5CA076A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21C8BA23-030F-4442-B122-B5A5CA076A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21C8BA23-030F-4442-B122-B5A5CA076A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21C8BA23-030F-4442-B122-B5A5CA076A4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0033516-751E-42BC-B969-B09D8114C6B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0033516-751E-42BC-B969-B09D8114C6B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0033516-751E-42BC-B969-B09D8114C6B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0033516-751E-42BC-B969-B09D8114C6B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
